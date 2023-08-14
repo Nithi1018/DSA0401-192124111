@@ -1,7 +1,6 @@
 import pandas as pd
 import numpy as np
-data=pd.read_csv("C:/Users/VSJN/Desktop/fod/factory.csv")
-print(data)
+data=pd.read_csv("‪C:/Users/VSJN/Desktop/datasets/Housing.csv")
 concentration_measurements = data["concen"].values
 sample_size = int(input("Enter the sample size: "))
 confidence_level = float(input("Enter the confidence level (between 0 and 1): "))
